@@ -1,10 +1,35 @@
 .App {
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  margin: 3px;
+  box-shadow: rgb(94, 93, 93);
+  border: none;
+  font-size: 20px;
+  
+}
+
+button:hover {
+  width: 75px;
+  height: 75px;
+  font-weight: 35px;
+}
+
+.increment {
+  background-color: rgb(119, 243, 119);
+  color: white;
+}
+
+.decrement {
+  background-color: rgb(240, 116, 116);
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
